@@ -169,14 +169,17 @@
         const getScrollValue = () => {
             if (window.scrollY > 1000 && window.scrollY !== curr) {
                 topBtn.classList.remove("fadeOut");
-                topBtn.style.display = "block";
+
                 setTimeout(() => {
                     topBtn.classList.add("fadeOut");
-                }, 3000);
+                }, 2000);
                 curr = window.scrollY;
             }
         }
-        window.onscroll = e => getScrollValue(e);
+        window.onscroll = e => {
+            console.log(e);
+            getScrollValue(e);
+        }
     </script>
 </body>
 

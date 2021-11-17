@@ -31,7 +31,7 @@
                     <li>
                         <details>
                             <summary id="currentPage">About</summary>
-                            <ul>
+                            <ul id="dropdown">
                                 <li><a href="about.html#breed">Breed</a></li>
                                 <li><a href="about.html#history">History</a></li>
                                 <li><a href="about.html#appereance">Appereance</a></li>
@@ -63,6 +63,8 @@
             spitz breeds such as the Siberian Husky, but long-coated dogs can also be found in many litters due to a
             recessive gene.</p>
     </main>
+
+    <div class="main-wrapper"></div>
 
     <section>
         <article id="breed">
@@ -117,6 +119,7 @@
 
         <article id="appereance">
             <h2>Appereance</h2>
+
             <p>As a spitz breed, the appearance of the Akita reflects cold weather adaptations essential to their
                 original function. The Akita is a substantial breed for its height with heavy bones. Characteristic
                 physical traits of the breed include a large, bear-like head with erect, triangular ears set at a slight
@@ -156,6 +159,7 @@
 
         <article id="characteristics">
             <h2>Characteristics</h2>
+
             <p>The Akita is generally seen as territorial about its property, and can be reserved with strangers. It is
                 sometimes described as feline in its actions; it is not unusual for an Akita to clean its face after
                 eating, to preen its kennel mate, and to be fastidious in the house. They are known to be intolerant of
@@ -208,14 +212,17 @@
         const getScrollValue = () => {
             if (window.scrollY > 1000 && window.scrollY !== curr) {
                 topBtn.classList.remove("fadeOut");
-                topBtn.style.display = "block";
+
                 setTimeout(() => {
                     topBtn.classList.add("fadeOut");
-                }, 3000);
+                }, 2000);
                 curr = window.scrollY;
             }
         }
-        window.onscroll = e => getScrollValue(e);
+        window.onscroll = e => {
+            console.log(e);
+            getScrollValue(e);
+        }
     </script>
 </body>
 

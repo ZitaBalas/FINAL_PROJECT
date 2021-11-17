@@ -77,7 +77,7 @@ section img:hover {
 
 /* Back to Top */
 #top {
-    /* display: none; */
+    visibility: hidden;
     width: 100px;
     height: 100px;
     background-color: #FF9E00;

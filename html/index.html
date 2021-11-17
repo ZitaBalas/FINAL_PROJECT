@@ -175,6 +175,7 @@
         const getScrollValue = () => {
             if (window.scrollY > 1000 && window.scrollY !== curr) {
                 topBtn.classList.remove("fadeOut");
+                topBtn.style.visibility = "visible";
 
                 setTimeout(() => {
                     topBtn.classList.add("fadeOut");
@@ -183,7 +184,6 @@
             }
         }
         window.onscroll = e => {
-            console.log(e);
             getScrollValue(e);
         }
     </script>

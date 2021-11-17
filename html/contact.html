@@ -106,7 +106,7 @@
 
         <div id="top">
             <a href="#">
-                Back<br>to<br><span>top</span>
+                <p>Back<br>to<br><span>top</span></p>
             </a>
         </div>
 
@@ -114,6 +114,22 @@
         <p><span>&copy;<b>2021</b></span> All rights reserved</p>
     </footer>
 
+    <script>
+        let curr = window.scrollY;
+        const topBtn = document.getElementById("top");
+
+        const getScrollValue = () => {
+            if (window.scrollY > 1000 && window.scrollY !== curr) {
+                topBtn.classList.remove("fadeOut");
+                topBtn.style.display = "block";
+                setTimeout(() => {
+                    topBtn.classList.add("fadeOut");
+                }, 3000);
+                curr = window.scrollY;
+            }
+        }
+        window.onscroll = e => getScrollValue(e);
+    </script>
 </body>
 
 </html>

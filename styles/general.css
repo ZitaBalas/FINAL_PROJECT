@@ -90,6 +90,13 @@ section img:hover {
 
 #top:hover {
    background-color: #b70c27;
+   animation: 100ms fadeIn;
+}
+
+@keyframes fadeIn {
+    100% {
+      visibility: visible;
+    }
 }
 
 #top a {

@@ -1,0 +1,36 @@
+footer {
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    letter-spacing: 3px;
+}
+
+footer ul, footer ul a {
+    display: flex;
+    align-items: center;
+}
+
+footer ul {
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.phone a {
+    font-family: 'Vesper Libre', serif;
+    font-weight: bold;
+}
+
+footer img {
+    height: 40px;
+    margin: 1rem;
+}
+
+.phone img {
+    margin-right: 0;
+}
+
+footer li:hover {
+    height: 50px;
+}
+
+
+

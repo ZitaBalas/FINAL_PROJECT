@@ -1,0 +1,126 @@
+/* Navbar */
+.nav-container {
+    width: 100%;
+    height: 11%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+details > summary {
+    list-style: none;
+  }
+
+details:hover, nav button:hover {
+    cursor: pointer;
+}
+
+details ul {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#logo {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-image: url('../img/2021-11-16-removebg-preview.png');
+    background-position: 50% 40%;
+    background-size: 175%;
+    margin-left: 2rem;
+}
+
+#logo:hover {
+    width: 100px;
+    height: 100px;
+}
+
+nav .navbar {
+    display: flex;
+    margin-right: 2rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav li {
+    color: #FF9E00;
+    font-size: 1.5rem;
+}
+
+nav a:hover, details:hover {
+    font-size: 1.75rem;
+}
+
+nav form {
+    display: flex;
+}
+
+#search {
+    padding: 0.4rem;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+#search::-webkit-search-cancel-button {
+    display: none;
+}
+
+#search:focus {
+    box-sizing: content-box;
+    border: 4px solid #FF9E00;
+}
+
+#search::placeholder {
+    font-size: 1.5rem;
+    position: relative;
+    top: 20%;
+}
+
+#searchBtn {
+    width: 15px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    margin-left: -15%;  
+    z-index: 1;
+}
+
+/* Hero Image */
+.hero {
+    height: 90vh;
+    margin-top: 10vh;
+    background-image: url('../img/slBCjVy-akita-wallpaper.jpg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    margin-left: 5%;
+    font-size: 4rem;
+    color: #FF9E00;
+    text-shadow: 4px 2px black;
+}
+
+.hero-text p {
+    color: #b70c27;
+    text-shadow: 2px 2px black;
+}
+
+hr {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 3px solid #b70c27;
+    box-shadow: 1px 1px black;
+}

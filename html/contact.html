@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akita Inu - Contact</title>
+    <link rel="icon" type="image/png" href="../img/svg/iconmonstr-cat-7.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&family=Vesper+Libre&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../styles/general.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a id="logo" href="index.html"></a>
+
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li>
+                        <details>
+                            <summary>About</summary>
+                            <ul>
+                                <li><a href="about.html#breed">Breed</a></li>
+                                <li><a href="about.html#history">History</a></li>
+                                <li><a href="about.html#appereance">Appereance</a></li>
+                                <li><a href="about.html#characteristics">Characteristics</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a id="currentPage" href="contact.html">Contact</a></li>
+                    <li>
+                        <form action="#">
+                            <input type="search" name="search" id="search" placeholder="Search">
+                            <button type="submit" id="searchBtn"><img src="../img/svg/iconmonstr-magnifier-1.svg"
+                                    alt="Magnifier icon"></button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Contact</h1>
+
+        <ul>
+            <li><img src="../img/svg/iconmonstr-phone-1.svg" alt="Phone icon"></li>
+            <li><b>Phone</b></li>
+            <li>+49 012 345 6789</li>
+        </ul>
+        <ul>
+            <li><img src="../img/svg/iconmonstr-email-1.svg" alt="Email icon"></li>
+            <li><b>Email</b></li>
+            <li><a href="mailto:woofwoof@gnail.com">woofwoof@gmail.com</a></li>
+        </ul>
+        <ul>
+            <li><img src="../img/svg/iconmonstr-home-6.svg" alt="Address icon"></li>
+            <li><b>Address</b></li>
+            <li>
+                <address>
+                    Am Freibad 19<br>
+                    57223 Kreuztal<br>
+                    Siegerland<br>
+                    Germany
+                </address>
+            </li>
+        </ul>
+    </main>
+
+    <h2>Do you have any questions?</h2>
+
+    <form action="#">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone">
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="500"
+            placeholder="Max. 500 characters"></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <h2>Location</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80564.04071466984!2d7.947911565701062!3d50.875118242633064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bc039506a7dbdb%3A0x562860de3c22a338!2sDogs%20Coaching!5e0!3m2!1sde!2sde!4v1637092132780!5m2!1sde!2sde"
+        width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+        <div id="top">
+            <a href="#">
+                Back<br>to<br><span>top</span>
+            </a>
+        </div>
+
+    <footer>
+        <p><span>&copy;<b>2021</b></span> All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

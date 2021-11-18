@@ -27,6 +27,11 @@ section div img {
     border-radius: 8px;
 }
 
+section div img:hover {
+    width: 120%;
+    object-fit: none;
+}
+
 main h1 {
     background-image: url("../img/svg/output-onlinepngtools2.png");
     background-size: 60%;
@@ -36,7 +41,6 @@ article h2 {
     margin-top: 0;
     background-image: url("../img/svg/Unbenannt-1-removebg-preview.png");
     background-size: 100%;
-    
 }
 
 main h1, article h2 {

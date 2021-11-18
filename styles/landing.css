@@ -1,9 +1,10 @@
 /* Main */
 main {
-    margin-top: 5%;
+    padding-top: 5%;
 }
 
 section > div {
+    background-color: whitesmoke;
     border: 4px solid black;
     display: flex;
     gap: 2%;
@@ -14,5 +15,5 @@ section div:nth-of-type(2n) {
 }
 
 section div img {
-    width: 50%;
+    max-width: 50%;
 }

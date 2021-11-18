@@ -2,3 +2,17 @@
 main {
     margin-top: 5%;
 }
+
+section > div {
+    border: 4px solid black;
+    display: flex;
+    gap: 2%;
+}
+
+section div:nth-of-type(2n) {
+    flex-flow: row-reverse;
+}
+
+section div img {
+    width: 50%;
+}

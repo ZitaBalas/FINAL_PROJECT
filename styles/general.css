@@ -6,7 +6,6 @@
 }
 
 body {
-    /* background-image: url('../img/Bg-image.jpg'); */
     overflow-x: hidden;
 }
 
@@ -59,21 +58,24 @@ a, footer {
 
 /* Section */
 section {
-    margin: 2rem 10%;
+    background-image: url('../img/Paw-Transparent-Clip-Art-Image.png');
+    background-size: 100%;
+    margin: 2rem 0;
+}
+
+section div {
+    margin: 0 10%;
+}
+
+section div img {
+    width: 40%;
+    object-fit: cover;
 }
 
 article h2 {
     text-align: center;
+    margin-bottom: 2rem;
 }
-
-section img {
-    width: 50%;
-}
-
-section img:hover {
-    width: 55%;
-}
-
 
 /* Back to Top */
 #top {
@@ -84,7 +86,7 @@ section img:hover {
     border-radius: 50%;
     box-shadow: 1px 1px 8px 4px black;
     position: fixed;
-    right: 5%;
+    right: 2.5%;
     bottom: 8%;
 }
 

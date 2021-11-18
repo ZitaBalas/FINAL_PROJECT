@@ -1,19 +1,15 @@
-/* Section */
+section {
+    margin-top: -2%;
+}
+
 section > div {
-    box-shadow: -4px 4px 15px black;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    margin-bottom: 10vh;
     display: flex;
-    background-color: whitesmoke;
-    /* background: rgba(255,192,0,1); */
-    /* background: linear-gradient(45deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%); */
+    margin-bottom: 10vh;
 }
 
 section div:nth-of-type(2n) {
     box-shadow: 4px 4px 15px black;
     flex-flow: row-reverse;
-    background: rgba(255,192,0,1);
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%);
 }
 
@@ -22,7 +18,7 @@ section > div article {
 }
 
 section div img {
-    border: 1px solid black;
+    border: 1px solid rgb(27, 27, 27);
     margin: 3%;
     border-radius: 8px;
 }
@@ -33,7 +29,6 @@ section div img:hover {
 }
 
 main h1 {
-    background-image: url("../img/svg/output-onlinepngtools2.png");
     background-size: 60%;
 }
 
@@ -41,17 +36,13 @@ article h2 {
     margin-top: 0;
     background-image: url("../img/svg/Unbenannt-1-removebg-preview.png");
     background-size: 100%;
-}
-
-main h1, article h2 {
     background-repeat: no-repeat;
     background-position: center;
     padding: 2rem 0;
-    color: white;
+    color: #FF9E00;
+    line-height: 1.2;
 }
 
-main p {
-    font-size: 2rem;
-    width: 80%;
-    margin: 0 auto;
+section div:nth-of-type(2n) h2 {
+    color: white;
 }

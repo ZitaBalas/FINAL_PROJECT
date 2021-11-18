@@ -67,7 +67,7 @@ a, footer {
     font-size: 1.5rem;
 }
 
-.hero *, a, details summary, #top *, footer *, label {
+.hero *, a, details summary, #top *, footer *, label, #submitBtn {
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -140,6 +140,10 @@ input:focus, textarea:focus {
 #top:hover {
    background-color: #b70c27;
    animation: 100ms fadeIn;
+}
+
+#top:hover p {
+    color: whitesmoke;
 }
 
 @keyframes fadeIn {

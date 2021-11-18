@@ -1,12 +1,22 @@
 /* Main */
 main {
+    max-height: 440px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: rgb(27, 27, 27)
 }
 
 main > ul {
-    width: 33%;
+    height: fit-content;
+    padding: 0;
+}
+
+main ul:hover {
+    margin-top: 2rem;
+}
+
+main ul a:hover {
+ color: #b70c27;   
 }
 
 main img {
@@ -19,7 +29,7 @@ main li:nth-child(2) {
 
 strong {
     font-family: 'Permanent Marker', cursive;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #FF9E00;
     letter-spacing: 2px;
 }
@@ -30,10 +40,6 @@ strong {
     font-style: normal;
     line-height: 1.25;
     color: white;
-}
-
-.contact-info:hover {
-    color: #df102f;
 }
 
 /* Information section */
@@ -47,7 +53,6 @@ strong {
     width: 50%;
     padding: 3rem;
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 50%);
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,19 +78,24 @@ iframe:hover {
 
 /* Form */
 .form-wrapper {
-    width: 50%;
+    width: 80%;
+    background-color: white;
+}
+
+.form-wrapper form {
     background-color: whitesmoke;
     box-shadow: -4px 4px 15px black;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin: 5% 10%;
+    margin: 10%;
+    margin-top: 5%;
     padding: 4rem;
+    padding-bottom: 1.5rem;
 }
 
 .form-wrapper h1 {
     text-align: center;
-    margin: 3em 0;
-    margin-bottom: 4em;
+    margin-top: 5%;
 }
 
 .userdata-wrapper {
@@ -96,7 +106,7 @@ iframe:hover {
     margin: 0 auto;
 }
 
-.userdata-wrapper * {
+.userdata-wrapper *, #submitBtn {
     display: block;
     margin: 0;
 }
@@ -123,6 +133,24 @@ textarea {
 textarea::placeholder {
     font-family: 'Permanent Marker', cursive;
     font-size: 1rem;
+}
+
+#submitBtn {
+    width: fit-content;
+    height: fit-content;
+    background-color: #FF9E00;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px black;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #b70c27;
 }
 
 /* Footer */

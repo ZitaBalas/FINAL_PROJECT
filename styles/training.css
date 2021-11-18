@@ -1,0 +1,9 @@
+/* Main */
+main h1 {
+    background-size: 70%;
+    padding: 2rem;
+}
+
+section > article {
+    border-radius: 0;
+}

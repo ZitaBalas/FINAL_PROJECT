@@ -1,17 +1,9 @@
 /* Main */
-main h1 {
-    background-size: 95%;
-    padding: 4rem;
-}
-
-/* Breed Section */
-.breed-container {
+main {
+    padding: 0;
     display: flex;
     margin: 0;
-}
-
-.breed-container > * {
-    margin-bottom: 0;
+    margin-bottom: 10%;
 }
 
 .breed-title {
@@ -23,8 +15,10 @@ main h1 {
     text-align: center;
 }
 
-.breed-title h2 {
+.breed-title h1 {
     font-size: 6rem;
+    color: black;
+    background-image: none;
 }
 
 .breed-title p {
@@ -39,7 +33,7 @@ main h1 {
 
 .breed-wrapper img {
     width: 50%;
-    height: 50vh;
+    height: 60vh;
 }
 
 .breed-wrapper p {
@@ -97,4 +91,15 @@ section figure {
 
 figure img {
     width: 100%;
+}
+
+h3 {
+    display: inline-block;
+    width: fit-content;
+    font-size: 1.5rem;
+    background-color: #b70c27;
+    color: white;
+    padding: 0.5rem 3rem;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }

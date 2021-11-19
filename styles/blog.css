@@ -45,7 +45,7 @@ main h1 {
     background-size: 60%;
 }
 
-.title-wrapper {
+.title-wrapper h2 {
     margin-top: 0;
     background-image: url("../img/svg/Unbenannt-1-removebg-preview.png");
     background-size: 100%;
@@ -56,6 +56,6 @@ main h1 {
     line-height: 1.2;
 }
 
-.title-wrapper:nth-child(2n) {
+.title-wrapper:nth-child(2n) h2 {
     color: white;
 }

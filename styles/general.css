@@ -74,7 +74,6 @@ a, footer {
 /* Section */
 section > div, section > article {
     margin-bottom: 10vh;
-    background-color: whitesmoke;
 }
 
 article h2 {

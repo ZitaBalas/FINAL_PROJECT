@@ -16,6 +16,7 @@ section > div {
 
 section > div:nth-child(odd) {
     box-shadow: -4px 4px 15px black;
+    background-color: whitesmoke;
 }
 
 section div:nth-of-type(2n) {

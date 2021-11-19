@@ -2,9 +2,16 @@ section {
     margin-top: -2%;
 }
 
+section div {
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+
 section > div {
     display: flex;
-    margin-bottom: 10vh;
+    box-shadow: 4px 4px 15px black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 section > div:nth-child(odd) {
@@ -16,17 +23,19 @@ section div:nth-of-type(2n) {
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%);
 }
 
-section > div article {
+section div article {
     padding: 2%;
 }
 
-section div img {
+section > div img {
+    max-width: 40%;
+    object-fit: cover;
     border: 1px solid rgb(27, 27, 27);
     margin: 3%;
     border-radius: 8px;
 }
 
-section div img:hover {
+section > div img:hover {
     width: 120%;
     object-fit: none;
 }

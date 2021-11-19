@@ -72,21 +72,9 @@ a, footer {
 }
 
 /* Section */
-section div {
-    margin: 0 10%;
-}
-
 section > div, section > article {
-    box-shadow: 4px 4px 15px black;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
     margin-bottom: 10vh;
     background-color: whitesmoke;
-}
-
-section div img {
-    max-width: 40%;
-    object-fit: cover;
 }
 
 article h2 {

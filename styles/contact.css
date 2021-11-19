@@ -12,7 +12,7 @@ main > ul {
 }
 
 main ul:hover {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 main ul a:hover {

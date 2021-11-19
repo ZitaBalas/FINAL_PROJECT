@@ -1,5 +1,38 @@
 /* Main */
+main {
+    width: 100%;
+}
+
 main h1 {
     background-size: 95%;
     padding: 4rem;
+}
+
+section {
+    margin: 0;
+}
+
+.breed-container {
+    display: flex;
+    margin: 0;
+}
+
+.breed-title {
+    background-color: #FF9E00;
+    width: 40%;
+}
+
+.breed-wrapper {
+    width: 60%;
+}
+
+.breed-wrapper img {
+    width: 100%;
+}
+
+
+
+
+section h2 {
+    background-color: #FF9E00;
 }

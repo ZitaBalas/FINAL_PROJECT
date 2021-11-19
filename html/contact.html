@@ -21,7 +21,7 @@
 
     <header>
         <div class="nav-container">
-            <a id="logo" href="index.html"></a>
+            <a id="logo" href="index.html"><img src="../img/svg/logo3.png" alt="Akita logo"></a>
 
             <nav>
                 <ul class="navbar">
@@ -29,9 +29,9 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="training.html">Training</a></li>
                     <li>
-                        <details>
+                        <details open>
                             <summary>About</summary>
-                            <ul>
+                            <ul id="dropdown">
                                 <li><a href="about.html#breed">Breed</a></li>
                                 <li><a href="about.html#history">History</a></li>
                                 <li><a href="about.html#appereance">Appereance</a></li>
@@ -127,25 +127,6 @@
         <p><span>&copy;<b>2021</b></span> All rights reserved</p>
     </footer>
 
-    <script>
-        let curr = window.scrollY;
-        const topBtn = document.getElementById("top");
-
-        const getScrollValue = () => {
-            if (window.scrollY > 1000 && window.scrollY !== curr) {
-                topBtn.classList.remove("fadeOut");
-                topBtn.style.visibility = "visible";
-
-                setTimeout(() => {
-                    topBtn.classList.add("fadeOut");
-                }, 2000);
-                curr = window.scrollY;
-            }
-        }
-        window.onscroll = e => {
-            getScrollValue(e);
-        }
-    </script>
 </body>
 
 </html>

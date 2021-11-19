@@ -84,7 +84,7 @@ iframe:hover {
 
 .form-wrapper form {
     background-color: whitesmoke;
-    box-shadow: -4px 4px 15px black;
+    box-shadow: 4px 4px 15px black;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     margin: 10%;
@@ -94,6 +94,7 @@ iframe:hover {
 }
 
 .form-wrapper h1 {
+    font-family: 'Vesper Libre', serif;
     text-align: center;
     margin-top: 5%;
 }

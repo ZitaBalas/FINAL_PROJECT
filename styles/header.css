@@ -10,9 +10,17 @@
     top: 0;
 }
 
-details > summary {
+summary {
     list-style: none;
   }
+
+#dropdown {
+    display: none;
+}
+
+details:hover #dropdown {
+    display: block;
+}
 
 details:hover, nav button:hover {
     cursor: pointer;
@@ -27,11 +35,11 @@ details ul {
     display: inline-block;
     width: 90px;
     height: 90px;
-    background-image: url('../img/svg/logo3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90%;
     margin-left: 2rem;
+}
+
+#logo img {
+    width: 100%;
 }
 
 #logo:hover {

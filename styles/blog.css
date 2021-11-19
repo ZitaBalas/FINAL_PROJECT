@@ -7,8 +7,11 @@ section > div {
     margin-bottom: 10vh;
 }
 
+section > div:nth-child(odd) {
+    box-shadow: -4px 4px 15px black;
+}
+
 section div:nth-of-type(2n) {
-    box-shadow: 4px 4px 15px black;
     flex-flow: row-reverse;
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%);
 }

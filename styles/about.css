@@ -97,9 +97,10 @@ h3 {
     display: inline-block;
     width: fit-content;
     font-size: 1.5rem;
-    background-color: #b70c27;
     color: white;
-    padding: 0.5rem 3rem;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
+    background-image: url("../img/svg/output-onlinepngtools2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0.5em 3em;
 }

@@ -2,7 +2,13 @@
 main h1 {
     background-size: 70%;
     padding: 2rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
+}
+
+.extra-field {
+    height: 20vh;
+    background-color: rgb(27,27,27);
 }
 
 /* Section */
@@ -62,6 +68,7 @@ figure img {
 
 article:nth-child(2) .text-container {
     align-items: flex-end;
+    margin-top: -4rem;
 }
 
 article:nth-child(2) .text-container p {

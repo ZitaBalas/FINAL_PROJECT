@@ -5,6 +5,7 @@ main {
     position: relative;
     z-index: -2;
     background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(183,12,39,1) 85%);
+    margin-bottom: 10%;
 }
 
 #canva {

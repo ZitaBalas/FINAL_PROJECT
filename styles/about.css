@@ -62,10 +62,16 @@ section div {
     width: 85%;
     background-color: whitesmoke;
     box-shadow: 4px 4px 15px black;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     padding: 5rem 6rem;
     padding-bottom: 4rem;
+}
+
+#appereance div {
+    border-radius: 0;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 h3, article p {
@@ -80,6 +86,7 @@ section figure {
     margin-bottom: 3rem;
     margin-left: 0;
     margin-right: 5rem;
+    border-bottom-right-radius: 50px;
 }
     
 
@@ -87,6 +94,8 @@ section figure {
     float: right;
     margin-right: 0;
     margin-left: 5rem;
+    border-radius: 0;
+    border-bottom-left-radius: 50px;
 }
 
 figure img {

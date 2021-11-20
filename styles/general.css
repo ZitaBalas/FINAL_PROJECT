@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     background-image: url('../img/Paw-Transparent-Clip-Art-Image.png');
     background-size: 100%;
+    background-position: 50% 58%;
 }
 
 #currentPage {

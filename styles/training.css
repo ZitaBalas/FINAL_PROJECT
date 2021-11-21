@@ -1,9 +1,18 @@
 /* Main */
+main {
+    text-align: center;
+}
+
 main h1 {
     background-size: 70%;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
+}
+
+main p {
+    width: 80%;
+    margin: 3rem auto;
 }
 
 .squarespace {

@@ -1,23 +1,21 @@
 /* Main */
 main {
     padding: 5% 15%;
-    padding-bottom: 15%;
-    position: relative;
-    z-index: -2;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(183,12,39,1) 85%);
-    margin-bottom: 10%;
+    padding-bottom: 0;
 }
 
-#canva {
-    width: 90%;
-    height: 80%;
-    background-color: white;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    position: absolute;
-    bottom: 20%;
-    left: 5%;
-    z-index: -1;
+.main-wrapper {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.main-wrapper figure {
+    padding: 6%;
+    background-image: url('../img/Paw-Transparent-Clip-Art-Image.png');
+}
+
+.main-wrapper img {
+    border-radius: 50%;
 }
 
 /* Section */
@@ -34,9 +32,9 @@ section > div img {
 /* Facts */
 .facts-container {
     position: relative;
-    z-index: -1;
     display: flex;
     justify-content: center;
+    margin-top: 10rem;
 }
 
 .squarespace {
@@ -46,7 +44,7 @@ section > div img {
     position: absolute;
     top: 15%;
     right: 3%;
-    z-index: -2;
+    z-index: -1;
 }
 
 .facts {
@@ -66,10 +64,10 @@ section > div img {
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: whitesmoke;
-    padding: 3rem;
+    padding: 2rem 3rem;
     width: 65%;
     position: relative;
-    right: 15%;
+    right: 25%;
     bottom: 20%;
 }
 
@@ -85,11 +83,6 @@ section > div img {
 .facts a:hover {
     font-size: 1.6rem;
 }
-
-
-
-
-
 
 /* Content */
 .content-container {
@@ -141,5 +134,18 @@ section > div img {
 }
 
 /* Gallery */
-/* transition: transform 0.5s cubic-bezier(0.7, 0, 0.3, 1); */
-/* transform: scale3d(1.8, 1.8, 1); */
+.gallery {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 7%;
+}
+
+.slide {
+    border: 40px solid rgb(27, 27, 27);
+    border-radius: 25px;
+    width: 100%;
+    height: 60vh;
+    display: none;
+    margin: 0 auto;  
+    object-fit: cover; 
+}

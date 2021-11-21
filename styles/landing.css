@@ -1,12 +1,17 @@
 /* Main */
 main {
-    padding: 5% 15%;
+    padding: 5% 10%;
     padding-bottom: 0;
 }
 
 .main-wrapper {
     display: flex;
     margin-top: 5rem;
+    gap: 5%;
+}
+
+.main-wrapper div {
+    width: 65%;
 }
 
 .main-wrapper figure {
@@ -34,12 +39,12 @@ section > div img {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .squarespace {
     width: 60%;
-    height: 60vh;
+    height: 68vh;
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 50%);
     position: absolute;
     top: 15%;
@@ -91,6 +96,7 @@ section > div img {
 
 .content-container div {
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 75%);
+    width: 33%;
 }
 
 .content-container img {
@@ -108,7 +114,7 @@ section > div img {
 .content-container div:nth-child(2) {
     display: flex;
     flex-direction: column-reverse;
-    background: rgb(27, 27, 27);    
+    background: black;
 }
 
 .content-container div:nth-child(2) > * {

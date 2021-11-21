@@ -71,6 +71,10 @@ figure img {
     max-width: 100%;
 }
 
+article:nth-child(3) figure {
+    margin-top: -1rem;
+}
+
 /* Text container */
 .text-container {
     width: 50%;

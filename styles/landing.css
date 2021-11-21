@@ -21,26 +21,123 @@ main {
 }
 
 /* Section */
-section div {
-    margin: 0 10%;
-}
-
-section > div {
-    background-color: whitesmoke;
-    border: 4px solid black;
-    display: flex;
-    gap: 2%;
-    margin-bottom: 0;
-    border-radius: 0;
-}
-
-section div:nth-of-type(2n) {
-    flex-flow: row-reverse;
+section {
+    width: 80%;
+    margin: 5rem auto;
 }
 
 section > div img {
-    max-width: 50%;
+    max-width: 100%;
     object-fit: cover;
+}
+
+/* Facts */
+.facts-container {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.squarespace {
+    width: 60%;
+    height: 60vh;
+    background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 50%);
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    z-index: -2;
+}
+
+.facts {
+    width: 60%;
+    height: 85vh;
+    margin-left: 20%;
+}
+
+.facts-container figure {
+    width: 100%;
+    padding: 4rem;
+    background-color: rgb(27, 27, 27);
+}
+
+.facts article {
+    box-shadow: 4px 4px 15px black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: whitesmoke;
+    padding: 3rem;
+    width: 65%;
+    position: relative;
+    right: 15%;
+    bottom: 20%;
+}
+
+.facts h2 {
+    background-image: url("../img/svg/Unbenannt-1-removebg-preview.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 1rem;
+}
+
+.facts a:hover {
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+/* Content */
+.content-container {
+    display: flex;   
+}
+
+.content-container div {
+    background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 75%);
+}
+
+.content-container img {
+    height: 50%;
+}
+
+.content-container article {
+    padding: 2rem 3rem;
+}
+
+.content-container a:hover {
+    color: black;
+}
+
+.content-container div:nth-child(2) {
+    display: flex;
+    flex-direction: column-reverse;
+    background: rgb(27, 27, 27);    
+}
+
+.content-container div:nth-child(2) > * {
+    height: 50%;
+} 
+
+.content-container p {
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.content-container a, .content-container div:nth-child(2) p {
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.content-container div:nth-child(2) a {
+    color: #FF9E00;
+}
+
+.content-container div:nth-child(2) a:hover {
+    color: #b70c27;
 }
 
 /* Gallery */

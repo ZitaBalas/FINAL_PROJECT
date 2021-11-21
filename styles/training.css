@@ -6,7 +6,7 @@ main h1 {
     margin-bottom: 5rem;
 }
 
-.extra-field {
+.squarespace {
     height: 20vh;
     background-color: rgb(27,27,27);
 }
@@ -41,6 +41,10 @@ article:nth-child(2) .title-container {
 .title-wrapper {
     height: 50%;
     background: linear-gradient(90deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%);
+}
+
+article:nth-child(2) .title-wrapper {
+    background: linear-gradient(270deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 100%);
 }
 
 .title-wrapper h2 {

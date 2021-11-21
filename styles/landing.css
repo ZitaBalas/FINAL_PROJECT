@@ -104,7 +104,8 @@ section > div img {
 }
 
 .content-container article {
-    padding: 2rem 3rem;
+    margin: 0 3rem;
+    margin-top: 5rem;
 }
 
 .content-container a:hover {

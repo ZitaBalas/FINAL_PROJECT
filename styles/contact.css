@@ -46,11 +46,12 @@ strong {
 .info-container {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 /* Location */
 .map-wrapper {
-    width: 50%;
+    width: 45%;
     padding: 3rem;
     background: linear-gradient(315deg, rgba(165,73,5,1) 0%, rgba(255,192,0,1) 50%);
     display: flex;
@@ -78,7 +79,7 @@ iframe:hover {
 
 /* Form */
 .form-wrapper {
-    width: 80%;
+    width: 65%;
     background-color: white;
 }
 
@@ -87,7 +88,7 @@ iframe:hover {
     box-shadow: 4px 4px 15px black;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin: 10%;
+    margin: 10% 20%;
     margin-top: 5%;
     padding: 4rem;
     padding-bottom: 1.5rem;
@@ -126,7 +127,7 @@ textarea, .userdata input {
 }
 
 textarea {
-    height: 15rem;
+    height: 10rem;
     border: 2px solid black;
     border-color: black gray gray black;
 }
@@ -144,7 +145,7 @@ textarea::placeholder {
     border-radius: 8px;
     box-shadow: 2px 2px 8px black;
     font-size: 1.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
     margin: 0 auto;
     margin-top: -1rem;
     cursor: pointer;

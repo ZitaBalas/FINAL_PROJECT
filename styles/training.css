@@ -21,8 +21,10 @@ main p {
 }
 
 /* Section */
-article {
+section article {
     display: flex;
+    margin-bottom: 5%;
+    padding: 0;
 }
 
 article:nth-child(2) {
